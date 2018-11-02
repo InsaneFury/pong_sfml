@@ -1,9 +1,9 @@
 #Ignore bin
-FlappyBird/[Bb]in/
+pong/[Bb]in/
 
 #Ignore obj
-FlappyBird/[Oo]bj/
+pong/[Oo]bj/
 
 #Ignore .vs except .suo
 **/.vs
-.vs\Asteroid\v15\!.suo
+.vs\pong\v15\!.suo
