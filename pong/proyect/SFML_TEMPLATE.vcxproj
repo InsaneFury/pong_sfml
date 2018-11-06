@@ -94,9 +94,7 @@
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>
-XCOPY "$(SolutionDir)libs\SFML-2.5.1\bin" "$(TargetDir)" /e /h /y /s
-</Command>
+      <Command>$(ProjectDir)copyFiles.bat "$(SolutionDir)" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
