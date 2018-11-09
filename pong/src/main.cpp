@@ -9,8 +9,6 @@ int main()
 
 	map.ShowObjects(); // Display all the layer objects.
 
-	//map.GetLayer("World").visible = false; // Hide a Layer named World----No se porque pero con esto no funca
-
 										   // Start the game loop
 	while (window.isOpen()) {
 		// Process events
