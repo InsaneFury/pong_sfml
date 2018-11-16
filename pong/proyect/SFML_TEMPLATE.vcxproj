@@ -19,7 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Logic\game.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\Player\player.cpp" />
+    <ClCompile Include="..\src\Scenes\gameplay.cpp" />
+    <ClCompile Include="..\src\Scenes\menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Logic\game.h" />
+    <ClInclude Include="..\src\Player\player.h" />
+    <ClInclude Include="..\src\Scenes\gameplay.h" />
+    <ClInclude Include="..\src\Scenes\menu.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
